@@ -35,7 +35,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
 
-
     function addGo(e) {
         const square = e.target;
         const indexSquare = parseInt(square.getAttribute("id"));
@@ -71,7 +70,6 @@ document.addEventListener("DOMContentLoaded", function () {
         }
         return false;
     }
-
 
     restartBtn.addEventListener('click', restart);
 
